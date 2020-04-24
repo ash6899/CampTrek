@@ -161,7 +161,6 @@ router.post('/reset/:token', function(req, res) {
         auth: {
           user: 'codewithash99@gmail.com',
            pass: process.env.GMAILPW
-          //pass: "012345aB"
         }
       });
       var mailOptions = {
